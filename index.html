@@ -224,6 +224,10 @@ body{
   background:#f7f9fc;
 }
 
+.score-table tbody tr:first-child td {
+  background: #e8eef8;
+}
+
 .group-label{
   background:var(--primary-dark);
   color:#fff;
@@ -2044,7 +2048,7 @@ body{
               <thead>
                 <tr>
                   <th colspan="2">구분</th>
-                  <th>국수영탐</th>
+                  <th>국수영탐(2)</th>
                   <th>국수영탐(1)</th>
                   <th>국수영</th>
                   <th>국영탐</th>
@@ -2053,47 +2057,14 @@ body{
               </thead>
               <tbody>
                 <tr>
-                  <th class="section-label" rowspan="3">실제 응시<br>기준 성적</th>
-                  <th class="metric-label">표준점수</th>
-                  <td>333.0</td>
-                  <td>342.0</td>
-                  <td>224.0</td>
-                  <td>215.0</td>
-                  <td>227.0</td>
-                </tr>
-                  <th class="metric-label">백분위</th>
-                  <td>212.5</td>
-                  <td>230.0</td>
-                  <td>146.0</td>
-                  <td>127.5</td>
-                  <td>151.5</td>
-                </tr>
-                <tr>
-                  <th class="metric-label">평균 등급</th>
-                  <td>3.3</td>
-                  <td>3.0</td>
-                  <td>3.0</td>
-                  <td>3.3</td>
-                  <td>3.0</td>
-                </tr>
-
-                <tr>
-                  <th class="section-label" rowspan="7">수능 예상<br>성적</th>
-                  <th class="metric-label">표준점수</th>
+                  <th class="section-label" rowspan="3">표준점수<br>기준</th>
+                  <th class="metric-label">점수</th>
                   <td>387.0</td>
                   <td>394.0</td>
                   <td>254.0</td>
                   <td>254.0</td>
                   <td>266.0</td>
                 </tr>
-                  <th class="metric-label">백분위</th>
-                  <td>272.0</td>
-                  <td>275.0</td>
-                  <td>180.0</td>
-                  <td>177.0</td>
-                  <td>187.0</td>
-                </tr>
-                <tr>
                   <th class="metric-label">평균 등급</th>
                   <td>2.3</td>
                   <td>2.3</td>
@@ -2101,12 +2072,45 @@ body{
                   <td>2.3</td>
                   <td>2.0</td>
                 </tr>
+                <tr>
+                  <th class="metric-label">상위 누적(%)</th>
+                  <td>2.0%</td>
+                  <td>2.3%</td>
+                  <td>3.6%</td>
+                  <td>3.1%</td>
+                  <td>1.5%</td>
+                </tr>
+
+                <tr>
+                  <th class="section-label" rowspan="7">백분위<br>기준</th>
+                  <th class="metric-label">점수</th>
+                  <td>272.0</td>
+                  <td>275.0</td>
+                  <td>180.0</td>
+                  <td>177.0</td>
+                  <td>187.0</td>
+                </tr>
+                  <th class="metric-label">평균 등급</th>
+                  <td>2.3</td>
+                  <td>2.3</td>
+                  <td>2.3</td>
+                  <td>2.3</td>
+                  <td>2.0</td>
+                </tr>
+                <tr>
+                  <th class="metric-label">상위 누적(%)</th>
+                  <td>1.1%</td>
+                  <td>1.5%</td>
+                  <td>2.8%</td>
+                  <td>2.2%</td>
+                  <td>0.6%</td>
+                </tr>
               </tbody>
             </table>
           </div>
 
           <aside class="reflect-side">
-            <h4 class="reflect-side__title">국수영탐 기준 전국 예상 위치</h4>
+            <h4 class="reflect-side__title">국수영탐(2) 기준 전국 예상 위치</h4>
               <div class="rank-visual__summary">
                 <strong>표준점수 : 상위 2.0%</strong>
                 <span>전국 예상 9,513 / 483,564</span>
@@ -2649,7 +2653,7 @@ body{
         </div>
         <div class="question-summary-box">
           <span class="question-summary-box__label">취약 문항</span>
-          <span class="question-summary-box__value">15, 22, 28</span>
+          <span class="question-summary-box__value">15, 23, 27</span>
         </div>
       </div>
 
